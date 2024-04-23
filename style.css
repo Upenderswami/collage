@@ -1,0 +1,206 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul
+{
+list-style: none;
+}
+.mainheader
+{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.twoheader ul
+{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    
+}
+.twoheader a
+{
+    font-weight: 800;
+    color: #370842;
+    font-size: 23px;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+.button 
+{
+ background-color: #5b5b97;
+ color: #fff;
+ border-radius: 20px;
+ padding: 10px 30px;
+
+}
+.button a{
+    color: #fff;
+   text-decoration: none;
+   font-size: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bg-image
+{
+    background-image: url(./images/MSGU.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-image h1
+{
+    color:darkred;
+    text-align: center;
+    margin-top: 100px
+}
+.bg-image h2
+{
+    color:dr;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    /* font-weight: 900; */
+
+}
+ .buttonone
+ {
+     text-align: center;
+     margin-top: 350px;
+}
+.buttonone a
+{
+        
+    text-decoration: none;
+    background-color:aqua;
+    color: rgb(32, 32, 32);
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+ }
+.about
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.us
+{
+background-color: #370842;
+width: 570px;
+padding: 20px;
+color: white;
+border-radius: 20px;
+box-shadow: 3px 3px 5px maroon;
+
+}
+.us h1
+{
+text-align: center;
+font-weight: 500;
+font-size: 50px;
+}
+.us p
+{
+    font-weight: 500;
+    font-size: 25px;
+}
+.us h2
+{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.pic
+{
+    position: relative;
+}
+
+.pic h1 {
+    padding: 6px 14px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 259px;
+    left: 0px;
+    font-size: 25px;
+}
+.pic img
+{
+ width: 240px;
+}
+.all
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.all1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    
+}
+
+.one img
+{
+  width: 270px;
+}
+.two img
+{
+  width: 280px;
+
+}
+.thre img
+{
+    width: 280px;
+}
+ .blog
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+} 
+ .add
+{
+ background-color: #370842;
+ width: 360px;
+ height: 400px;
+ color: white;
+
+} 
+
+ .add img
+{
+    width:360px;
+    box-shadow: 0px 5px maroon;
+} 
+.add h1
+{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 0;
+}
+.add p
+{
+    text-align: center;
+    padding: 20px;
+}
